@@ -1,0 +1,13 @@
+button:hover{
+    border: none;
+    border-radius: none;
+}
+
+button:focus{
+    outline: none;
+    border-radius: none;
+}
+
+input:focus{
+    outline: none;
+}

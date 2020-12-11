@@ -1,0 +1,82 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.container{
+    padding: 50px;
+    margin-top: 30px;
+    /* display: grid;
+    justify-content: center; */
+    height: 480px;
+   
+}
+
+.row {
+    padding: 15px;
+    /* box-shadow: 1px 1px 10px 5px rgba(192, 192, 192, 0.53); */
+    box-shadow: 1px 1px 10px 5px rgba(189, 166, 166, 0.23);
+}
+
+.imgcontent {
+    /* background-color: violet; */
+    margin: 0;
+    height: 450px;
+    padding-left: 33px;
+    display: grid;
+}
+
+.dimg{
+    width: 200px;
+    height: 280px;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+}
+
+.bookinfo{
+    padding: 5px;
+    color: #666652;
+}
+
+.block-content{
+    padding-top: 30px;
+    color: #1a0d3b;
+}
+
+.desc{
+    height: 450px;
+    padding: 10px 20px;
+}
+
+.author{
+    color: #168071;
+            font-weight: 600;
+}
+
+.btn-download{
+    background-color: black;
+    float: right;
+    margin: 40px 20px 20px 0px;
+    padding: 20px;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    width: 25rem;
+    top: 70%;
+            height: 72px;
+}
+
+.btn-download:hover{
+    background: #cea135;
+}
+.download_text{
+    position: absolute;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}

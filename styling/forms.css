@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: Arvo, serif;
+    letter-spacing: 1.5px;
+}
+
+.container{
+    height: 657px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+}
+
+.side-wrapper{
+    margin: 0;
+    padding: 0;
+    /* background-color: aquamarine; */
+    background-image: url('../images/background/sideimage.jpeg');   
+    background-repeat: no-repeat; 
+}
+
+.side-wrapper > .side-text{
+    position: absolute;
+    top: 30vh;
+    width: 100px;
+    margin: 20px;
+    color: aliceblue;
+    font-size: 2rem;
+}
+.side-wrapper > .side-text p{
+    text-align: center;
+
+}
+ 
+
+.signup-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.signup-text{
+    text-align: center;
+}
+
+.signup-form{
+    margin: auto;
+}
+.form-group input{
+    margin: 25px;
+    padding: 10px;
+    width: 400px;
+    border: none;
+    border-bottom: 2px solid #11122b;
+    letter-spacing: 0.1em;
+ 
+}
+
+.form-group input:focus{ 
+    outline: none;
+    box-shadow: 0 1rem 2rem rgb(0,0,0,0.1);
+    border-bottom: 2px solid rgb(193,64,46);
+}
+
+.fg-password{
+    float: right;
+    margin: 0 20px 10px 0px;
+    text-decoration: none;
+    color: rgb(56, 13, 66);
+
+}
+.form-btn{
+    text-align: center;
+}
+
+.form-btn input {
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    letter-spacing: 0.1em;
+}
+
+.btn{
+    border: none;
+    background-color: rgb(193,64,46);
+    color: white;
+    margin-top: 34px;
+}
+
+.form-btn input:focus{
+    width:200px;
+    border: none;
+}
+
+.form-btn-signin{
+    position: absolute;
+    top: 0;
+    right: 0;   
+    margin: 40px;
+    display: flex;
+    font-size: 1.1rem;
+}
+
+.form-btn-signin input{
+    width: 80px;
+    padding: 0;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 20px;
+    letter-spacing: 0.2em;
+}
+
+.form-btn-signin p{
+    margin-right: 20px;
+    text-align: center;
+}
+
+.emessage,  .smessage {
+    margin:20px 0px 0px 30px;
+    width: 450px;
+    color: rgb(28, 80, 166);
+    font-size: 1.1em;
+    font-weight: bold;
+
+}
+
+.smessage{
+    color: rgb(45, 158, 14);
+}
+
+.link{
+    background-color: yellow;
+}
+

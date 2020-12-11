@@ -1,0 +1,36 @@
+@media screen and (max-width: 800px){
+    html, body{
+        width: 100%;
+        margin:0;
+        padding: 0;
+        font-size: 4vw;
+    }
+    .container{
+        display: grid;
+        /* grid-template-column: 1fr; */
+        justify-content: center;
+        margin-top: 2rem;
+        padding: 0;
+    }
+    .profileavatar{
+        margin: auto;
+
+    }
+    #profileavatar{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    #profileavatarname{
+        left: 1rem;
+    }
+    .updateform{
+        width: 100%;
+    }
+    #updatebtn{
+       margin-right: 4rem;
+    }
+}
+
+

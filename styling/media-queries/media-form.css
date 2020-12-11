@@ -1,0 +1,59 @@
+@media(width:1024px){
+    
+}
+@media(max-width:600px){
+
+    /* Signin and Signup Form */
+    html, body{
+        width: 100%;
+        margin:0;
+        padding: 0;
+        font-size: 4vw;
+    }
+    .container{
+        width: 100%;;
+        height: 100%;
+        display: block;
+    }
+
+    /* Side Wrapper */
+    .side-wrapper{
+        height: 80vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+
+    /* Signup Wrapper */
+    .signup-wrapper{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .signup-text{
+        margin: 6vw;
+    }
+
+    .form-group{
+        display: flex;
+        justify-content: center;
+    }
+    .form-group input{
+       width: 60%;
+    
+    }
+
+    #forgot_pss{
+        float:right;
+    }
+
+
+
+    /* Navigation */
+    
+    
+
+    
+    
+}

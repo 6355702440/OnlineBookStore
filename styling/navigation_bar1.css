@@ -1,0 +1,144 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar{
+    /* overflow: hidden; */
+    background-image: linear-gradient(to right,#ff7854 ,#ff5079 100%);
+    background-image: linear-gradient(to right,#75425d ,#4d1935 80%);
+    /* background-image: linear-gradient(to right,#879FBB,#0D444B 80%); */
+    /* background-attachment: fixed; */
+    /* background-image: linear-gradient(to right,#7a9ac2 ,#270bb3 50%); */
+    border-radius: 0px;
+    border: none;
+    padding: 20px 100px;
+    margin: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+    padding: 0;
+}
+
+.nabar-inverse{
+    border: none;
+}
+
+.container-fluid > .header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+    padding: 0;
+}
+
+.logo > a > img{
+    width: 50px; 
+    height: 50px;
+}
+.discover{
+    display: none;
+}
+
+
+.useravatarn:hover{
+    cursor: pointer;
+}
+
+.login{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.login a{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.login a:hover{
+    text-decoration: none;
+    color: #4881db;
+    cursor: pointer;
+    
+}
+
+.sub-menu-l{
+    /* display: none; */
+    width: 18.433%;
+    position: absolute;
+    background-color: rgb(255,255,255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+    top: 9.0rem;
+    right: 0;
+}
+
+.sub-menu-l > .userinfo {
+    padding: 10px 8px 25px 8px;
+    background-color: #f5f3ed;
+}
+
+.sub-menu-l > .logout {
+    padding: 10px 8px 15px 8px;
+}
+
+.sub-menu-l > .userinfo > .sep1, .sep2{
+    padding: 5px;
+}
+
+#avatarname{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    text-align: center;
+    /* top: 11px; */
+    right: 48%;
+    font-size: 1.1em;
+}
+
+#username{
+    color: black;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+#username:hover{
+    color: #0d8b94;
+}
+
+#email{
+    color: #855079;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.sep2 a{
+    color: #505c5c;
+    font-weight: 500;
+}
+
+.sep2:hover a{
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.sub-menu-l{
+    display: none;
+}
+
+.sep2 > img{
+    width: 40px;
+    height: 40px;
+}
+.sub-menu-l{
+    left: 110rem;
+}
